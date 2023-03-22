@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@assets": ["./public/assets"],
+			"@components": ["./src/components"],
+			"@layouts": ["./src/layouts"],
+			"@script": ["./src/script"],
+			"@hooks": ["./src/hooks"],
+			"@blocks": ["./src/blocks"],
+			"@styles": ["src/styles"]
+		}
+	}
+}
