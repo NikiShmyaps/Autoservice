@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  .image {
+    min-width: 31px;
+    min-height: 31px;
+  }
+
+  .title {
+    margin-left: 15px;
+    @include p4;
+    color: $whiteText;
+  }
+}

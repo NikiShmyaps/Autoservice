@@ -4,10 +4,7 @@ import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 
 type LinkComponentProps = {
-	id?: string;
 	href: string;
-	locale?: string;
-	scroll?: boolean;
 	children?: JSX.Element | string;
 	className?: string;
 	target?: string;
@@ -15,10 +12,7 @@ type LinkComponentProps = {
 };
 
 export const Link: React.FunctionComponent<LinkComponentProps> = React.memo(function LinkComponent({
-	id,
-	locale,
 	href,
-	scroll = true,
 	className,
 	children,
 	target = '_self',
@@ -27,10 +21,9 @@ export const Link: React.FunctionComponent<LinkComponentProps> = React.memo(func
 	const router = useRouter();
 
 	return (
-		<NextLink href={href} locale={locale || router.locale} scroll={scroll}>
+		<NextLink href={href} >
 			<a
 				className={`${styles.default} ${className} ${disabled ? styles.disabled : ''}`}
-				id={id}
 				target={target}
 			>
 				{children}

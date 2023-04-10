@@ -55,6 +55,10 @@ $size-xLarge: 20px;
 	font-size: 48px;
 	line-height: 48px;
 
+	@media screen and (max-width: $screen-l) {
+		font-size: 42px;
+	}
+
 	@media screen and (max-width: $screen-s) {
 		font-size: 40px;
 		line-height: 48px;
@@ -108,7 +112,7 @@ $size-xLarge: 20px;
 	font-size: 20px;
 	line-height: 32px;
 
-	@media screen and (max-width: $screen-s) {
+	@media screen and (max-width: $screen-l) {
 		font-weight: 400;
 		font-size: 18px;
 		line-height: 24px;

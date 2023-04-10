@@ -11,6 +11,11 @@
 		"tslint": "tslint -c tslint.json 'src/**/*.ts?(x)'",
 		"postinstall": "npx husky install"
 	},
+	"jest": {
+		"moduleNameMapper": {
+			"^@helpers": "<rootDir>/src/helpers"
+		}
+	},
 	"dependencies": {
 		"@pbe/react-yandex-maps": "^1.2.2",
 		"@reduxjs/toolkit": "^1.9.0",

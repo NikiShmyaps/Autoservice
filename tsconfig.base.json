@@ -3,6 +3,7 @@
 		"paths": {
 			"@assets": ["./public/assets"],
 			"@components": ["./src/components"],
+			"@helpers": ["./src/helpers"],
 			"@layouts": ["./src/layouts"],
 			"@script": ["./src/script"],
 			"@hooks": ["./src/hooks"],

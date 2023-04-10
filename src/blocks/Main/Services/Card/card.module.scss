@@ -1,0 +1,107 @@
+.container {
+  position: relative;
+  &:hover {
+    .wrap {
+      .button {
+        transition: all 0.25s ease-in-out;
+        color: $whiteText;
+        background-color: $orange;
+      }
+    }
+  }
+  
+  .wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: 'Больше информации скоро';
+      top: 0;
+      right: 0;
+      z-index: 2;
+      background: rgba(0,0,0, 0.5);
+      border-radius: 4px;
+      padding: 10px;
+      color: $orangeText;
+      @include p2;
+      @media screen and (max-width: $screen-l) {
+        font-size: 16px;
+      }
+      // @media screen and (max-width: $screen-s) {
+      //   font-size: 12px;
+      // }
+
+    }
+  }
+
+  .background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0, 0.5);
+      z-index: 1;
+    }
+  }
+
+  .main {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+
+    padding: 0 10px;
+    .title {
+      @include p2;
+      color: $whiteText;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 600;
+      @media screen and (max-width: $screen-s) {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+    }
+    .button {
+      @include button_text;
+      height: 48px;
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      flex-shrink: 0;
+      border: 2px solid;
+      outline: unset;
+      text-transform: uppercase;
+      transition: all 0.25s ease-in-out;
+      color: $whiteText;
+      border-color: $orangeText;
+      background-color: transparent;
+      opacity: .5;
+    
+      @media screen and (max-width: $screen-l) {
+        padding: 0px;
+        width: 100%;
+      }
+
+      @media screen and (max-width: $screen-s) {
+        font-size: 16px;
+        margin-bottom: 5px;
+        height: 36px;
+      }
+    }
+  }
+}

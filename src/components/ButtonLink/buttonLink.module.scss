@@ -1,0 +1,37 @@
+.button {
+	@include button_text;
+	height: 48px;
+	padding: 0 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	cursor: pointer;
+	flex-shrink: 0;
+	border: 2px solid;
+	justify-content: center;
+	outline: unset;
+	white-space: nowrap;
+	text-transform: uppercase;
+	transition: all 0.25s ease-in-out;
+	color: $whiteText;
+	border-color: $orangeText;
+	background-color: transparent;
+
+	&:hover {
+		transition: all 0.25s ease-in-out;
+		color: $whiteText;
+		background-color: $orange;
+	}
+
+	@media screen and (max-width: $screen-l) {
+		padding: 0px;
+		width: 100%;
+	}
+
+	&.disabled {
+		pointer-events: none;
+		pointer-events: none;
+		opacity: 0.5;
+	}
+}

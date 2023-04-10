@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  @include container_wrapper;
+
+  .title {
+    @include h2;
+    color: $blackText;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+    @media screen and (max-width: $screen-l) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width: $screen-s) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 400px) {
+      grid-template-columns: 1fr;
+    }
+
+    .item {
+      &:last-child {
+        @media screen and (max-width: $screen-l) {
+          grid-column-start: 2;
+          grid-column-end: 3;
+          justify-self: center;
+        }
+        @media screen and (max-width: $screen-s) {
+          grid-column-start: 1;
+          grid-column-end: 2;
+        }
+      }
+    }
+  }
+}

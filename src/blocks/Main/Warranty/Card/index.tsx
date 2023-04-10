@@ -16,22 +16,20 @@ interface CardProps {
 export const Card: React.FC <CardProps> = ({src, description, subtitle, title, width, height}) => {
   
 	return (
-              <div className={cx('item-wrap')}>
-                <div className={cx('background__image')}>
-                   <Image
-                  wrapperClassName={cx('img')}
-                  src= {src}
-                  width={width}
-                  height={height}
-                  alt="phone"
-                />
-                <h2 className={cx('title')}>{title}</h2>
-                </div> 
-                <div className={cx('card__container')}>
-                  <span className={cx('subtitle')}>{subtitle}</span>
-                  <p className={cx('description')}>{description}</p>
-                </div>
-              </div>
+    <div className={cx('wrap')}>
+      <Image
+        wrapperClassName={cx('background')}
+        src= {src}
+        width={width}
+        height={height}
+        alt="img"
+      />
+      <h2 className={cx('title')}>{title}</h2>
+      <div className={cx('main')}>
+        <p className={cx('main__title')}>{subtitle}</p>
+        <p className={cx('main__subtitle')}>{description}</p>
+      </div>
+    </div>
 	);
 };
 

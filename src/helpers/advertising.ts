@@ -1,0 +1,50 @@
+export const advertising = [
+  {
+    src: '/assets/warranty/01.png',
+    title: '01',
+    subtitle: 'Ремонт без задержек',
+    width:'750px',
+    height:'220px',
+    description: 'Мы соблюдаем сроки работ.',
+  },
+  {
+    src: '/assets/warranty/02.png',
+    title: '02',
+    subtitle: 'Точно знаете, за что платите',
+    width:'750px',
+    height:'220px',
+    description: 'Все работы производятся строго по смете. Мастер подробно проконсультирует Вас по вопросам необходимости и важности производимых работ.',
+  },
+  {
+    src: '/assets/warranty/03.png',
+    title: '03',
+    subtitle: 'Безопасность ',
+    width:'750px',
+    height:'220px',
+    description: 'Наши специалисты - гарантия качественного сервиса.',
+  },
+  {
+    src: '/assets/warranty/04.png',
+    title: '04',
+    subtitle: 'Мы открыты для клиентов',
+    width:'750px',
+    height:'220px',
+    description: 'Никаких звёздочек и крошечных шрифтов в договоре. Вы доверяете нам свой автомобиль - мы оправдываем ваше доверие.',
+  },
+  {
+    src: '/assets/warranty/05.png',
+    title: '05',
+    subtitle: 'Онлайн мониторинг',
+    width:'750px',
+    height:'220px',
+    description: 'Прямая трансляция с камер позволит вам убедится, что с вашим авто обращаются бережно и с любовью.',
+  },
+  {
+    src: '/assets/warranty/06.png',
+    title: '06',
+    subtitle: 'Ожидание с комфортом',
+    width:'750px',
+    height:'220px',
+    description: 'Вас приятно порадует наша зона отдыха для клиентов.',
+  }
+];
