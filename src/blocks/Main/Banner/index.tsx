@@ -18,7 +18,7 @@ export const Banner: React.FC = () => {
       </div>
       <div className={cx('container')}>
         <h1 className={cx('title')}>Профессиональная диагностика<br/>
-          <span className={cx('title-accent')}>и ремонта любых автомобилей<br/>включая <span className={cx('title-accent-name')}>Hyundai Porter!</span></span>
+          <span className={cx('title-accent')}>и ремонт любых автомобилей<br/>включая <span className={cx('title-accent-name')}>Hyundai Porter!</span></span>
         </h1>
         <p className={cx('subtitle')}>Оставьте свой автомобиль у нас, и мы вернем его вам в лучшем состоянии</p>
       </div> 

@@ -10,13 +10,13 @@ export const YaMap: FC = (  ) => {
       <Map
         className={cx( 'wrap' )}
         defaultState={{
-          center: [56.881266, 35.855743],
-          zoom: 16,
+          center: [55.701012, 37.382459],
+          zoom: 17,
           controls: ["zoomControl", "fullscreenControl"],
         }}
         modules={["control.ZoomControl", "control.FullscreenControl"]}
       >
-        <Placemark defaultGeometry={[56.882053, 35.856560]} />
+        <Placemark defaultGeometry={[55.701012, 37.382459]} />
       </Map>
     </YMaps>
 	);

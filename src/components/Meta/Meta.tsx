@@ -4,7 +4,7 @@ import Head from 'next/head';
 export const Meta: FC = () => {
 	return (
 		<Head>
-			<title>Ремонт автотмобилей и Hyundai Porter</title>
+			<title>Портер&Авто Сервис</title>
 			<meta name="description" content="Автосервис Porter&Auto Service. Качественный ремонт Hyundai Porter легковых автомобилей" />
 			<meta name="Keywords" 
 				content="
@@ -50,7 +50,7 @@ export const Meta: FC = () => {
 			<meta property="og:image:height" content="628" />
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 			<meta name="robots" content="index,follow" />
-			{/* <meta name="yandex-verification" content="9030dd08703eb432" /> */}
+			<meta name="yandex-verification" content="a5d5cf1ef9a95afe" />
 		</Head>
 	);
 };

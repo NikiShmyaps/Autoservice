@@ -30,7 +30,7 @@ export const Contacts: React.FC = () => {
                   height="28"
                   alt="place"
                 />
-                <span className={cx('item__text')}>Одинцовский городской округ, деревня Марфино, 18И</span>
+                <span className={cx('item__text')}>Одинцовский округ, Марфино, 18И</span>
               </li>
               <li ref={time} className={cx('item')}>
                 <Image

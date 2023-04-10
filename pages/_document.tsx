@@ -17,10 +17,13 @@ class MyDocument extends Document {
 						rel="stylesheet"
 					></link>
 					<link
+						href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+						rel="stylesheet"
+					></link>
+					<link
 						href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Black+Han+Sans&family=Montserrat&family=Open+Sans&display=swap"
 						rel="stylesheet"
 					></link>
-
 					<link
 						href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Black+Han+Sans&family=Open+Sans&display=swap"
 						rel="stylesheet"

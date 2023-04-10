@@ -18,7 +18,7 @@ export const LayoutWrapper: FC<LayoutWrapperPropTypes> = ({
         <Meta />
 				<Header />
 				<div className={cx('main')}>{children}</div>
-				{/* <Footer /> */}
+				<Footer />
 			</div>
 		</>
 	);

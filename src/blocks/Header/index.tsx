@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
                   height="25"
                   alt="place"
                 />
-                <span className={cx('item__text')}>Одинцовский городской округ, деревня Марфино, 18И</span>
+                <span className={cx('item__text')}>Одинцовский округ, Марфино, 18И</span>
               </div>
             </a>
           </li>
