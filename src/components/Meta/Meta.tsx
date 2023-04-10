@@ -1,12 +1,10 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
-
 export const Meta: FC = () => {
-
 	return (
 		<Head>
-			<title>Porter&Auto Service</title>
+			<title>Ремонт автотмобилей и Hyundai Porter</title>
 			<meta name="description" content="Автосервис Porter&Auto Service. Качественный ремонт Hyundai Porter легковых автомобилей" />
 			<meta name="Keywords" 
 				content="

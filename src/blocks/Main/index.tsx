@@ -11,7 +11,7 @@ import { Tire } from './Tire';
 export const Main: React.FC = () => {
 
 	return (
-		<>
+		<div className={cx('wrapper', 'block')}>
 			<Banner/>
 			<Advantages/>
 			<Tire/>
@@ -19,7 +19,6 @@ export const Main: React.FC = () => {
 				<Services/>
 			</div>
 			<Warranty/>
-			
-		</>
+		</div>
 	);
 };
