@@ -5,7 +5,7 @@ export const Meta: FC = () => {
 	return (
 		<Head>
 			<title>Портер&Авто Сервис</title>
-			<meta name="description" content="Автосервис Porter&Auto Service. Качественный ремонт Hyundai Porter легковых автомобилей" />
+			<meta name="description" content="Автосервис Porter&Auto Service. Качественный ремонт Hyundai Porter и легковых автомобилей" />
 			<meta name="Keywords" 
 				content="
 					автосервис,
